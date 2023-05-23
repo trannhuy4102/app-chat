@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-image: url('https://img.freepik.com/free-photo/chat-message-yellow-speech-bubble-icon-notification-button-talk-dialog-symbol-conversation-button-icon-symbol-background-3d-illustration_56104-2068.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.bg-chatbox {
+    background-image: url('https://wallpapers.com/images/hd/fun-chat-app-stickers-pattern-a7mhh6ay9qqcpyfh.jpg');
+}
